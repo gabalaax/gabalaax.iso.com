@@ -1,0 +1,124 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ .header{
+    width: 100%;
+    height: 12vh;
+    background-color: #35618c;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+ }
+ nav .logo{
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 500 bold;
+    padding: 4vh 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+ }
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+
+ }
+ nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 800 lighter;
+    transition:  .5s;
+ }
+ nav ul li a:hover{
+    color: rgb(235, 110, 38);
+
+ }
+ /*--body--*/
+ .section{
+    width: 100%;
+    height: 635px;
+    background-color: rgb(235, 110, 38);
+ }
+ .body{
+    text-align: center;
+    justify-content: center;
+    padding-top: 13%;
+ }
+ .body h1{
+    color: white;
+    font-size: 78px;
+    letter-spacing: 2px;
+    font-weight: 700 bold;
+    text-transform: capitalize;
+
+ }
+ .body h2{
+    color: white;
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-weight: initial;
+    text-transform: uppercase;
+    padding-top: 25px;
+ }
+ /*----about---*/
+ .about{
+    width: 90%;
+    height: 500px;
+    margin: 90px;
+    background-color: #e7f1fc;
+    position: relative;
+ }
+ .about h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700 bolder;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+ }
+ .about p{
+    color: rgb(63, 58, 58);
+    font-size: 25px;
+    font-weight: 800 lighter;
+    text-align: justify;
+    padding: 40px;
+ }
+ /*----paasta---*/
+ .card{
+   float: left;
+   height: 100%;
+   padding-left: 70px;
+
+
+ }
+ .box{
+   margin: 10px;
+   height: 300px;
+ }
+h3{
+    font-size: 45px;
+    padding-top: 30px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    text-transform: lowercase;
+    padding-top: 15px;
+}
+h6{
+    text-align: center;
+    font-size: large;
+    height: 25px;
+    padding: 10px;
+    color: black;
+}
